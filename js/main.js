@@ -8,7 +8,7 @@ const elDarkModeButton = document.querySelector('.dark-mode-link');
 // });
 
 elDarkModeButton.addEventListener('click', function() {
-  document.body.classList.add('dark-mode')
+  document.body.classList.toggle('dark-mode')
 });
 
 // elDarkModeButton.addEventListener('click', function() {
