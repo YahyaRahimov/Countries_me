@@ -34,11 +34,18 @@
     <div class="container">
 
       <div class="form-section">
-        <form class="forma" action="https://eco.htmlacademy.ru" method="get">
+        <form class="filters" action="https://echo.htmlacademy.ru" method="get">
           <!-- SEARCH-INPUT -->
-          <input class="search-input" type="search" name="search" placeholder="Search for a country…" aria-label="search">
+          <input class="search-input" type="search" name="search" placeholder="Search for a country…" aria-label="search" required>
           <!-- FILTER -->
-
+          <select class="filters-region-select" name="filters-region-select" aria-label="Regions" placeholder="Filter by Region">
+            <option selected disabled>Filter by Region</option>
+            <option>Africa</option>
+            <option>America</option>
+            <option>Europe</option>
+            <option>Asia</option>  b
+            <option>Oceania</option>
+          </select>
         </form>
       </div>
 
