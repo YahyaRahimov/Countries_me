@@ -245,3 +245,10 @@ a {
   margin-left: 24px;
   margin-bottom: 0;
 }
+
+.ism {
+  color: var(--global-color);
+  font-size: 30px;
+  font-weight: 800;
+
+}

@@ -11,8 +11,6 @@ elDarkModeButton.addEventListener('click', function() {
   document.body.classList.toggle('dark-mode')
 });
 
-
-
 // elDarkModeButton.addEventListener('click', function() {
 //   document.body.classList.remove('dark-mode')
 // });
